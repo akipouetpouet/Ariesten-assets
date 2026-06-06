@@ -1,0 +1,835 @@
+ .bloccontenairqeel{
+  width: 1280px;
+  background-color: #131313;
+  padding: 0px 20px 20px 10px;
+  margin-left: -35px;
+  }
+  .blocinterieurqeel{
+      width: 1285px;
+    height: 598px;
+    margin: auto;
+    background-color: #0f0f0f;
+    position: relative;
+    display: flex;
+  }
+  .blocqeel{
+  width: 854px;
+      height: 580px;
+  background-image: url('https://i.imgur.com/YZewUW7.png');
+  z-index: 1;
+  display:flex;
+padding-top: 19px;
+  }
+   .conteneurblocgroupes{
+    width: 390px;
+    height: 530px;
+    position: relative;
+    background-image: url(https://cdn.discordapp.com/attachments/323434167377461249/1279810101590622371/fond_chroniques_2_80_pourcent.png?ex=66d5cb89&is=66d47a09&hm=e31645b…&);
+    z-index: 99;
+    box-shadow: 0px 0 8px 2px #0e0e0e;
+    margin-left: 15px;
+  }
+     .conteneurblocgroupesqeel{
+width: 390px;
+    height: 530px;
+    padding-left: 15px;
+    position: absolute;
+  top: 0px;
+  background-image: url('https://i.imgur.com/qDRRuBs.png');
+    z-index: 99;
+  overflow:hidden;
+  }
+  .blocmembresqeel{
+  width: 390px;
+    height: 530px;
+    padding-left: 25px;
+    position: relative;
+    background-image: url('https://i.imgur.com/zkpi9W3.png');
+      box-shadow: 0px 0 8px 2px #0e0e0e;
+  } 
+  .bloccristaux {
+       width: 175px;
+    height: 34px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    z-index: 10;
+    position: absolute;
+    top: 190px;
+    left: 104.5px;
+}
+  .cristal{
+      width: 30px;
+            height: 30px;
+            cursor: pointer;
+  transition: 0.3s;
+  }
+
+  
+/* Image désaturée par défaut */
+.cristal1 {
+  background-image: url('https://i.imgur.com/P0f0Yat.png');
+}
+.cristal2 {
+  background-image: url('https://i.imgur.com/P0f0Yat.png');
+}
+.cristal3 {
+  background-image: url('https://i.imgur.com/P0f0Yat.png');
+}
+.cristal4 {
+  background-image: url('https://i.imgur.com/P0f0Yat.png');
+}
+  .cristal5 {
+  background-image: url('https://i.imgur.com/P0f0Yat.png');
+}
+  
+/* Image originale au survol */
+       .cristal1:hover, .cristal1.actif1 { background-image: url('https://i.imgur.com/jC8oxvv.png'); }
+        .cristal2:hover, .cristal2.actif2 { background-image: url('https://i.imgur.com/XTmPeWo.png'); }
+        .cristal3:hover, .cristal3.actif3 { background-image: url('https://i.imgur.com/wTXYNe9.png'); }
+        .cristal4:hover, .cristal4.actif4 { background-image: url('https://i.imgur.com/jYvX7H3.png'); }
+        .cristal5:hover, .cristal5.actif5 { background-image: url('https://i.imgur.com/FrNEdJk.png'); }
+    
+         /* Blocs de couleur */
+        .bloc {
+            width: 405px;
+            height: 360px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+            pointer-events: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+.bloccontenairgroupes{
+  width: 405px;
+    height: 400px;
+    position: relative;
+    bottom: 70px;
+    left: -12px;
+  }
+        .rouge { color: black; }
+        .vert { color: black; }
+        .bleu { color: black; }
+        .jaune { color: black; }
+        .violet { color: black; }
+        .orange { color: black; }
+        .cyan { color: black; }
+        .rose { color: black; }
+
+        .visible {
+            opacity: 1;
+            pointer-events: auto;
+        }
+  
+
+.qeel_imagegroupe{
+    width: 387px;
+    height: 305px;
+    position: relative;
+    left: -8px;
+    top: 37px;
+}
+
+.qeel_imageariestiens{
+width: 719px;    height: 597px;    position: absolute;
+    background-image: url('https://i.imgur.com/3QijcJg.png');
+    left: -177px;    top: -165px;  transition: 0.5s;  opacity: 0.8;
+}
+
+.qeel_imageterriens{
+width: 719px;    height: 597px;    position: absolute;
+    background-image: url('https://i.imgur.com/qrDiUN7.png');
+    left: -173px;    top: -165px;  transition: 0.5s; opacity: 0.8;
+}
+
+.qeel_imagegardiens{
+width: 719px;    height: 597px;    position: absolute;
+    background-image: url('https://i.imgur.com/5HNH1gI.png');
+    left: -177px;    top: -165px;  transition: 0.5s; opacity: 0.8;
+}
+
+.qeel_imageelus{
+width: 719px;    height: 597px;    position: absolute;
+    background-image: url('https://i.imgur.com/iVZI6mL.png');
+    left: -179px;    top: -165px;  transition: 0.5s; opacity: 0.8;
+}
+
+.qeel_imagedamnes{
+width: 719px;    height: 597px;    position: absolute;
+  background-image: url('https://i.imgur.com/9vmn70z.png');
+    left: -175px;    top: -165px;  transition: 0.5s; opacity: 0.8;
+}
+
+
+.qeel_imagegroupe:hover .qeel_imageariestiens{
+  background-image: url('https://i.imgur.com/MauJIdz.png');
+  left: -330px;  transform: scale(1.4);  top: -172px;  opacity: 0.4;
+}
+
+.qeel_imagegroupe:hover .qeel_imageterriens{
+  background-image: url('https://i.imgur.com/ZD7GGI9.png');
+  left: -330px;  transform: scale(1.4);  top: -172px;  opacity: 0.4;
+}
+
+.qeel_imagegroupe:hover .qeel_imagegardiens{
+  background-image: url('https://i.imgur.com/5G2LajV.png');
+  left: -330px;  transform: scale(1.4);  top: -172px;  opacity: 0.4;
+}
+
+.qeel_imagegroupe:hover .qeel_imageelus{
+  background-image: url('https://i.imgur.com/cl1lD8Z.png');
+  left: -330px;  transform: scale(1.4);  top: -172px;  opacity: 0.4;
+}
+
+.qeel_imagegroupe:hover .qeel_imagedamnes{
+  background-image: url('https://i.imgur.com/zxejhv5.png');
+  left: -330px;   transform: scale(1.4);   top: -172px;  opacity: 0.4;
+}
+
+
+.qeel_imagegroupe:hover .qeel_blocinfosgroupe{
+  opacity: 1;
+}
+
+.qeel_blocinfosgroupe{
+    width: 250px;
+    height: 280px;
+    margin: auto;
+    background: rgba(13, 13, 13, 0.8);
+    box-shadow: 0 0 5px 4px #0e0e0e;
+    margin-top: 20px;
+    position: relative;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.qeel_contenertitreinfo{
+width: 250px;
+  height: 50px;
+
+}
+
+.qeel_contenertitrehaut{
+    width: 250px;
+    height: 30px;
+    display: flex;
+    padding-top: 5px;
+}
+
+.qeel_traitgaucheinfo{
+flex: 4 1 auto;
+      background: linear-gradient(90deg, #0D0D0D 10%, #ea731c 40%, #c21208 100%);
+  height: 1px;
+  margin-top: 16px
+}
+
+.qeel_nomdugroupe{
+    font-family: Cinzel;
+    text-align: center;
+    flex: 1 1 auto;
+    font-size: 22px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #a79c99;
+    font-weight: 400;
+}
+
+.qeel_traitdroiteinfo{
+flex: 4 1 auto;
+    height: 1px;
+    background: linear-gradient(-90deg, #0D0D0D 10%, #ea731c 40%, #c21208 100%);
+  margin-top: 16px
+}
+
+.qeel_contenertitrebas{
+color: #a79c99;
+    font-size: 11px;
+    padding-top: 4px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    font-family: "Cinzel", serif;
+    letter-spacing: 1px;
+}
+
+.qeel_descrgroupe{
+    width: 220px;
+    height: 72px;
+    font-family: 'Merriweather';
+    font-size: 11px;
+    margin: auto;
+    color: #a79c99;
+    line-height: 14.5px;
+    font-weight: 300;
+    text-align: justify;
+    margin-top: 7px;
+}
+
+.qeel_nombregroupe{
+text-align: center;
+    width: 250px;
+    height: 56px;
+    background: rgba(12, 12, 12, 0.6);
+    color: #a79c99;
+    font-family: Cinzel;
+    font-weight: 300;
+    padding-top: 5px;
+    font-size: 17px;
+    box-shadow: 0 0 6px 0 #1a1a1a;
+}
+
+.qeel_contenerstats{
+  display: flex;
+  width: 250px;
+  height: 20px;
+}
+
+.qeel_titrestats{
+     font-family: Cinzel;
+    text-align: center;
+    flex: 1 1 auto;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-top: 6px;
+    padding-right: 5px;
+    color: #a79c99;
+    font-weight: 400;
+}
+
+.qeel_statsconteneroui{
+  display: flex;
+  padding: 0px 5px 0px 5px;
+}
+
+.qeel_adjectif{
+   color: #a79c99;
+    font-family: 'Cinzel';
+    font-size: 12px;
+    width: 64px;
+  font-weight: 600;
+    text-align: center;
+}
+
+.qeel_barrestat{
+    width: 100px;
+    margin-top: 6px;
+    height: 7px;
+    background: black;
+    border-radius: 5px;
+  padding-top: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+  overflow: hidden;
+}
+
+.qeel_barrestatinterne{
+height: 8px;
+  border-radius: 5px;
+  margin-top: -2px;
+}
+
+    .blocderlinkqeel{
+width: 482px;
+    height: 560px;
+    background-image: url(https://i.imgur.com/OxTVNzm.png);
+    z-index: 50;
+    position: absolute;
+    right: 23px;
+  }
+
+.qeel_imagelink{
+    width: 598px;
+    height: 639px;
+    background-image: url('https://i.imgur.com/QG2TvSv.png');
+    position: absolute;
+    top: -30px;
+    left: 20px;
+}
+  
+      .blocdegrade{
+    width: 31px;
+    height: 534px;
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-top: 25px;
+    background: #0d0d0d;
+    margin-top: -1px;
+    z-index: 99;
+    display: flex;
+  }
+  .ligneune{
+ width: 1px;
+    height: 270px;
+    margin-top: 105px;
+  }
+  .lignedeux{
+width: 1px;
+    height: 435px;
+    margin-top: 29px;
+    margin-left: 8px;
+  }
+  
+  .pretitreqeel{
+  width: 320px;
+    height: 35px;
+    color: #a79c99;
+    font-size: 12px;
+    padding-top: 30px;
+    text-align: center;
+    letter-transform: uppercase;
+    font-family: "Cinzel", serif;
+    letter-spacing: 1px;
+  }
+  .titreqeel{
+ width: 325px;
+    height: 35px;
+    text-align: center;
+    letter-transform: uppercase;
+    font-size: 25px;
+    font-family: "Cinzel", serif;
+    color: #a79c99;
+  }
+  .soustitreqeel{
+      width: 320px;
+    height: 40px;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Baskervville", serif;
+    color: #a79c99;
+  letter-spacing: 1px;
+  }
+  .trucsoustitre{
+ width: 320px;
+    height: 122px;
+    text-align: center;
+    font-size: 9px;
+    font-family: "Bodoni Moda SC", serif;
+    font-style: italic;
+    color: #a79c99;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+  z-index: 99;
+  }
+  
+  .blocmembre24{
+  width: 317px;
+    margin-top: 20px;
+    height: 145px;
+    background: rgba(19, 19, 19, 0.6);
+    box-shadow: 0 0 2px 4px #0e0e0e;
+    font-family: "Merriweather", serif;
+    line-height: 16px;
+    font-size: 12px;
+    padding: 15px;
+    color: transparent;
+    overflow: auto;
+  }
+
+.blocmembre24 a{
+color: #a79c99 !important;
+}
+
+   .blocmembre24::-webkit-scrollbar{
+  width: 3px;
+  }
+  .blocmembre24::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(to bottom, rgb(70, 6, 6) 0%, rgb(198, 3, 3) 100%);
+  }
+  .blocmembreco{
+    width: 315px;
+    margin-top: 20px;
+    height: 105px;
+    background: rgba(19, 19, 19, 0.6);
+    box-shadow: 0 0 2px 4px #0e0e0e;
+    padding: 10px;
+  position: relative;
+  }
+.blocmembrecotexte{
+width: 289px;
+    height: 85px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-family: "Merriweather", serif;
+    text-align: justify;
+    color: #a79c99;
+    line-height: 14px;
+    font-size: 10px;
+    color: #d9d9d9;
+}
+  .blocimageco{
+  width: 295px;
+  height: 85px;
+  transition: 0.3s;
+  opacity: 1;
+  position: relative;
+  }
+.blocimageco img{
+  position: absolute; 
+  top: 0px; left 0px;
+  filter: blur(1px);
+}
+
+.qeel_membresco{
+ width: 295px;
+  height: 85px;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+   font-family: "Merriweather", serif;
+  transition: 0.3s;
+    line-height: 14px;
+    font-size: 12px;
+    color: transparent;
+}
+
+.qeel_membresco a{
+  color: #a79c99 !important;
+}
+
+.blocmembreco:hover .qeel_membresco{
+  opacity: 1;
+}
+.blocmembreco:hover .blocimageco{
+  opacity: 0;
+}
+  
+  .bloccontenairgauqeel{
+  width: 830px;
+  height: 370px;
+  }
+  .contenairhautgauche{
+  width: 830px;
+  height: 200px;
+  display: flex;
+  }
+  .containerhautgaugau{
+  width: 455px;
+  height: 200px;
+      margin-left: 10px;
+  }
+  .blocstatqeel{
+  width: 430px;
+  height: 70px;
+  display: flex;
+  margin-top: 10px;
+  }
+  .blocstatsmembmess{
+width: 115px;
+    height: 80px;
+    background: rgba(19, 19, 19, 0.6);
+    box-shadow: 0px 0 2px 4px #0e0e0e;
+    font-family: "Cinzel", serif;
+    font-size: 18px;
+    color: #c2b4b1;
+    line-height: 18px;
+    text-align: center;
+    padding-top: 23px;
+  }
+
+.blocstatsmembmess strong{
+font-weight: 600;
+}
+
+  .pubgacha{
+    width: 180px;
+    height: 80px;
+    background: rgba(19, 19, 19, 0.6);
+    box-shadow: 0 0 2px 4px #0e0e0e;
+    margin-left: 10px;
+    padding-top: 20px;
+  text-align: center;
+  }
+
+.pubgacha a{
+    font-family: 'Cinzel';
+    font-size: 20px;
+    text-align: center;
+    color: #a79c99 !important;
+    font-weight: 400;
+    line-height: 20px;
+  transition: 0.3s;
+}
+
+.pubgacha a:hover{
+color: #c00000 !important;
+}
+
+
+  .barredevie{
+  width: 430px;
+  height: 80px;
+  margin-top: 20px;
+      background: rgba(19, 19, 19, 0.6);
+    box-shadow: 0px 0 2px 4px #0e0e0e;
+
+  }
+
+.siagacha{
+  width: 417px;
+  height: 74px;
+  margin: auto;
+  background-image: url('https://i.imgur.com/Ve6mseK.png');
+   filter: brightness(0.5);
+  transition: 0.3s;
+}
+
+.barredevie:hover .siagacha{
+background-image: url('https://i.imgur.com/KFycD3k.gif');
+  filter: none;
+}
+
+
+  .bloccontenairdroiqeel{
+ width: 455px;
+    height: 355px;
+  margin-left: -22px;
+  }
+  .contenairblocavecava{
+    width: 355px;
+    height: 170px;
+    padding: 10px;
+    margin-top: 0px;
+    margin-left: -16px;
+  display: flex;
+  position: relative;
+  }
+  .blocavayo{
+    width: 160px;
+    height: 170px;
+    border-radius: 0 20% 0 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+  }
+
+.blocavayo img{
+ width: 100%;
+    margin-top: -20px;
+}
+  .blocdernierinscrit{
+width: 205px;
+    height: 170px;
+    position: absolute;
+    left: 135px;
+    background: rgba(19, 19, 19, 0.6);
+    border-radius: 0 20% 0 0;
+    box-shadow: 0 0 2px 4px #0e0e0e;
+  }
+
+.dernierinscrit2{
+    height: 170px;
+    width: 180px;
+    margin-left: 29px;
+}
+
+.lienficheprez{
+  width: 150px;
+    text-align: center;
+    font-size: 10px;
+    color: #a79c99;
+    letter-spacing: 3px;
+    font-family: 'Merriweather';
+    margin-left: 16px;
+}
+
+.derniermembreqeel{
+    color: #a79c99;
+    font-size: 12px;
+    text-align: center;
+  padding-top: 10px;
+    letter-transform: uppercase;
+    font-family: "Cinzel", serif;
+    letter-spacing: 1px;
+}
+
+.derniermembreinscrit{
+text-align: center;
+    font-size: 19px;
+    font-family: 'Cinzel';
+    padding: 10px;
+    line-height: 20px;
+}
+
+.derniermembreinscrit a{
+     color: #a79c99 !important;
+}
+
+.derniermembreinscrit span strong{
+font-weight: 500 !important;
+}
+  .contenairbasgauche{
+    width: 830px;
+    height: 155px;
+    display: flex;
+  margin-top: -8px;
+}
+  
+    .blocrumeur{
+    width: 455px;
+    height: 350px;
+    background-image: url(https://i.imgur.com/YZewUW7.png);
+  }
+.blocrumeurimg{
+  width: 455px; 
+  height: 135px;
+  background-image: url('https://i.imgur.com/4uZtbx2.png');
+      filter: grayscale(1);
+  transition: 0.3s;
+  }
+.blocrumeur:hover .blocrumeurimg{
+  filter:none;
+}
+  .bloctexterumeur{
+        width: 455px;
+    margin-top: 0px;
+    height: 139px;
+    background: rgba(19, 19, 19, 0.6);
+    box-shadow: 0px 0 2px 2px #0e0e0e;
+    font-family: "Merriweather", serif;
+    text-align: justify;
+    color: #a79c99;
+    line-height: 13px;
+    font-size: 10px;
+    padding: 15px 15px;
+  }
+  
+  .bloctexterumeur p{
+  font-size: 11px !important;
+  }
+  
+  .bloctitrepostrumeur{
+   width: 455px;
+    height: 80px;
+    background: rgba(12, 12, 12, 0.75) !important;
+    padding-top: 15px;
+  }
+    .titrefuneste{
+  text-align: center;
+  letter-transform: uppercase;
+  height: 30px;
+  font-size: 25px;
+  font-family: "Cinzel", serif;
+  color: #a79c99;
+  }
+    .pretitrerumeur{
+  width: 320px;
+    height: 35px;
+    color: #a79c99;
+    font-size: 12px;
+    padding-top: 30px;
+    text-align: center;
+    letter-transform: uppercase;
+    font-family: "Cinzel", serif;
+    letter-spacing: 1px;
+  }
+  .calendrierqeel{
+  width: 200px;
+  height: 150px;
+      margin-left: 10px;
+  background: rgba(19, 19, 19, 0.6);
+  box-shadow: 0px 0 2px 4px #0e0e0e;
+  }
+  .calendriermoncul{
+  width: 565px;
+  height: 150px;
+  background: rgba(19, 19, 19, 0.6);
+  box-shadow: 0px 0 2px 4px #0e0e0e;
+  margin-left: 15px;
+   overflow: auto;
+  white-space: nowrap;
+  }
+     .calendriermoncul::-webkit-scrollbar{
+  height: 4px;
+  }
+  .calendriermoncul::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(to bottom, rgb(70, 6, 6) 0%, rgb(198, 3, 3) 100%);
+  }
+  .blocchrono{
+  width: 185px;
+  height: 130px;
+      margin-top: 3px;
+    margin-left: 25px;
+    display: inline-block;
+  }
+  .bloctitrechrono{
+      width: 185px;
+    height: 25px;
+    font-family: "Cinzel", serif;
+    text-align: center;
+    padding-top: 3px;
+  font-size: 15px;
+    color: #a79c99;
+  }
+  .bloccontenchro{
+  width: 185px; 
+  height: 100px;
+  display: flex;
+  }
+  .imagechrono{
+  width: 40px;
+  height: 100px;
+  }
+  .descchrono{
+  width: 145px;
+  height: 100px;
+  }
+  .titrechronoui{
+   width: 130px;
+    font-family: "Cinzel", serif;
+    padding-left: 8px;
+    font-size: 11px;
+    color: #a79c99;
+  line-height: 11px;
+  
+  }
+  .textechronopouet{
+ width: 130px;
+    height: 90px;
+    font-family: "Merriweather", serif;
+    font-size: 10px;
+    text-align: justify;
+    text-overflow: ellipsis;
+    white-space: normal;
+    word-wrap: break-word;
+    line-height: 12px;
+    padding: 3px 8px 3px 8px;
+    color: #a79c99;
+  }
+  
+  .blocmembre24 a::after{
+  color: #a79c99 !important;
+    content: "✦";
+    margin-left: 4px;
+	margin-right: -1px;
+}
+ 
+ .blocmembre24 a:last-of-type::after {
+	color: #a79c99 !important;
+    content: "";
+    margin-left: 4px;
+ }
+ 
+ 
+ .qeel_membresco a::after{
+	   color: #a79c99 !important;
+    content: "✦";
+    margin-left: 4px;
+	margin-right: -1px;
+}
+
+ .qeel_membresco a:last-of-type::after {
+	color: #a79c99 !important;
+    content: "";
+    margin-left: 4px;
+ }
