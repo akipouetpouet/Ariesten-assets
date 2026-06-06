@@ -1,0 +1,570 @@
+/* ---- BOITE REPONSE RAPIDE ---- */
+
+.pouetpouetreponse{
+  width: 1000px !important;
+  margin: auto !important;
+    color: #a79c99!important;
+}
+
+.pouetpouetreponse div.h3 {
+  display: none;
+}
+
+.sceditor-toolbar{
+    border-image: linear-gradient(-90deg, #ea731c 10%, #c21208 100%) 1 !important;
+}
+
+.pouetpouetreponse div.sceditor-toolbar {
+  display: flex;
+    margin: auto;
+    width: 100%;
+  border-bottom: 1px solid red;
+    padding: 10px !important;
+    justify-content: space-evenly;
+  background-image: url('https://i.imgur.com/zuu2HT9.png');
+}
+
+.pouetpouetreponse .sceditor-container {
+  border: none;
+width: 1000px !important;
+    background: #181818 !important;
+    color: #a79c99 !important;
+}
+
+
+.pouetpouetreponse input{
+  background: rgba(19, 19, 19, 0.6);  box-shadow: none !important;  transition: 0.3s;  text-transform: uppercase;  color: #a79c99 !important;
+}
+
+.pouetpouetreponse input:hover{
+  color: #bf3131 !important;    box-shadow: none !important;
+}
+
+.pouetpouetreponse .sceditor-group {
+  padding: 10px;  display: flex;  gap: 5px;
+}
+.pouetpouetreponse .sceditor-group a {
+    background: #232323 !important;  padding: 2px;  transition: 0.3s;
+}
+
+.pouetpouetreponse .sceditor-group a:hover{
+background: #0a0a0a !important;
+}
+.sceditor-container iframe, .sceditor-container textarea{
+  width: 100% !important;  color: #a79c99 !important;
+}
+
+.sceditor-button.active,
+.sceditor-button:active,
+.sceditor-button:hover,
+.sceditor-button.hover {
+	box-shadow: none !important;	border: none !important;
+}
+html#sceditor_smilies,
+body#sce_smilies_body {
+background: transparent !important;
+}
+
+.sceditor-button-headers, .sceditor-button-servimg, .sceditor-button-twemojifa, .sceditor-button-embed, .sceditor-button-removeformat, .sceditor-button-source, 
+.sceditor-button-table, .sceditor-button-more, .sceditor-group:has(.sceditor-button-more), .sceditor-button-pastetext, .sceditor-button-date, .sceditor-button-time{
+  display: none !important;
+}
+
+/* ---- PREVISUALISATION ---- */
+
+
+.fondprevitext{
+  background-image: url('https://i.imgur.com/OTqDOtl.png');
+  padding: 15px;
+}
+
+.bloctextesujetprevi{
+  background: rgba(19, 19, 19, 0.8);  padding: 15px;
+}
+
+.blocconteneurtexteprevi{
+  background: rgba(13, 13, 13, 0.5);  padding: 15px;
+}
+
+.blocconteneurtexteprevi .row2{
+  background: none !important;
+}
+
+
+.blocconteneurtexteprevi .post{
+box-shadow: none;
+  border: none;
+}
+
+.blocconteneurtexteprevi .postbody{
+  width: 100%;
+}
+
+.blocconteneurtexteprevi .content{
+  color: #a79c99 !important;
+}
+
+/* ---- EN DESSOUS PREVISUALISATION ---- */
+
+.toitesmoche{
+padding: 15px;background-image: url('https://i.imgur.com/OTqDOtl.png');
+}
+
+.toitesmoche .row1{
+  background: none;
+}
+
+.toitesmoche .postbody{
+margin-right: 0px;background: rgba(13, 13, 13, 0.5);
+}
+
+.toitesmoche .author{
+  font-family: 'Cinzel' !important;      color: #a79c99 !important;
+}
+
+.toitesmoche .content{
+color: #a79c99 !important;
+}
+
+/* ---- BOITE MESSAGES ---- */
+
+.boutonenvoimess .panel{
+    background: none !important;    padding: 0;    height: 70px;    margin-bottom: -15px;    margin-top: -25px;    box-shadow: none;
+}
+.boutonenvoimess input{
+    background: rgba(9, 9, 9, 0.6);    box-shadow: none !important;    transition: .3s;    color: #a79c99 !important;  text-transform: uppercase;
+}
+
+.boutonenvoimess input:hover{
+  color: #bf3131 !important;    box-shadow: none !important;
+}
+
+.postingboxmoche .panel{
+background: none;  padding: 0px !important;  box-shadow: none !important;
+}
+
+.postingboxmoche .inner{
+  background-image: url('https://i.imgur.com/YZewUW7.png');  padding-bottom: 15px;  position: relative;
+}
+
+.imageboitemess{
+  width: 290px;  height: 440px;  background-image: url('https://i.imgur.com/QBAA7eE.png');  position: absolute; bottom: 0px;
+}
+
+.postingboxmoche label{
+    display: block;    font-weight: 500;  color: #a79c99 !important;    text-transform: uppercase;    margin-top: 17px;    background: rgba(9, 9, 9, 0.6);    padding: 8px;    text-align: left;    width: 135px;  text-align: center;  transition: 0.3s;
+}
+
+.postingboxmoche label:hover{
+    color: #bf3131 !important;
+}
+
+.postingboxmoche .topic_color{
+  display: none;
+}
+
+.postingboxmoche #smiley-box iframe{
+margin-top: 78px;
+height: 315px;
+}
+
+.postingboxmoche #message-box{
+  margin: 0 40px 0 250px;
+}
+
+.blocdutitrepostmess input{
+    color: #a79c99 !important;    margin-left: 20px;    padding: 5px;    height: 36px;    margin-top: 17px;    background: rgba(9, 9, 9, 0.6);    border-bottom: none !important;    width: 815px;
+}
+
+.blocdescpostmess{
+    margin-top: -11px;
+}
+
+.blocdescpostmess input{
+    color: #a79c99 !important;    margin-left: 20px;    padding: 5px;    height: 36px;    margin-top: 17px;    background: rgba(9, 9, 9, 0.6);    border-bottom: none !important;    width: 420px;
+}
+
+.contenupagemessage{
+    color: #a79c99!important;
+}
+
+.contenupagemessage div.sceditor-toolbar {
+  display: flex;    margin: auto;    width: 100%;  border-bottom: 1px solid red;    padding: 10px !important;    justify-content: space-evenly;  background-image: url('https://i.imgur.com/zuu2HT9.png');
+}
+
+.contenupagemessage .sceditor-container {
+  border: none;
+width: 1000px !important;
+    background: #181818 !important;
+    color: #a79c99 !important;
+}
+
+.contenupagemessage input:hover{
+  color: #bf3131 !important;
+    box-shadow: none !important;
+}
+
+.contenupagemessage .sceditor-group {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+}
+.contenupagemessage .sceditor-group a {
+    background: #232323 !important;
+  padding: 2px;
+  transition: 0.3s;
+}
+
+.contenupagemessage .sceditor-group a:hover{
+background: #0a0a0a !important;
+}
+
+
+.sceditor-button.active,
+.sceditor-button:active,
+.sceditor-button:hover,
+.sceditor-button.hover {
+	box-shadow: none !important;
+	border: none !important;
+}
+
+.smileypouet{
+position: relative;    top: 16px;    background: #0D0D0D;    padding-top: 1px;
+}
+
+.smileypouet .h3{
+    font-family: Cinzel !important;    color: #a79c99;    text-align: right;    border-bottom: none;    font-size: 25px;  margin-top: -32px;
+  margin-right: 35px;
+}
+
+.smileypouet #smiley-box{
+width: 100%;
+}
+
+.smileypouet .fonddublocsmiley{
+    background-image: url('https://i.imgur.com/YZewUW7.png') !important;
+  padding: 20px;
+    min-height: 315px;
+}
+
+
+.smileypouet .row1{
+background: #181818!important
+}
+
+.smileypouet iframe{
+    padding: 15px;
+}
+
+#smilies_header select {
+    background: rgba(9, 9, 9, 0.6);    text-transform: uppercase;    color: #a79c99 !important;    padding: 9px;    width: 182px;    margin-bottom: 10px;    border-bottom: none;    margin-top: 10px;  transition: 0.3s;
+}
+
+#smilies_header select:hover {
+  color: #bf3131 !important;
+}
+
+
+/* ---- BOUTONS GRAS ETC ---- */
+
+.sceditor-button-bold div {
+  background-position: 0!important;
+  background-image: url('https://i.imgur.com/OjE5oOJ.png') !important;
+}
+  
+.sceditor-button-italic div {
+  background-position: 0!important;
+  background-image: url('https://i.imgur.com/XNvPiVN.png') !important;
+}
+
+.sceditor-button-underline div {
+  background-position: 0!important;  background-image: url('https://i.imgur.com/zLqPsxj.png') !important;
+}
+
+.sceditor-button-strike div {
+  background-position: 0!important;  background-image: url('https://i.imgur.com/K3HUHBx.png') !important;
+}
+
+.sceditor-button-left div {
+  background-position: 0!important;  background-image: url('https://i.imgur.com/FUJuaoP.png') !important;
+}
+
+.sceditor-button-center div {
+  background-position: 0!important;  background-image: url('https://i.imgur.com/Vq5xyH1.png') !important;
+}
+
+.sceditor-button-right div {
+  background-position: 0!important;  background-image: url('https://i.imgur.com/mxvEFtp.png') !important;
+}
+
+.sceditor-button-justify div {
+  background-position: 0!important;  background-image: url('https://i.imgur.com/v5jffvi.png') !important;
+}
+
+.onbougelestitres{
+margin-left: 248px;;
+}
+
+.inputmochebougez .panel{
+background: #0f0f0f !important;
+}
+
+.inputmochebougez .row3{
+background: #0f0f0f !important;
+}
+
+.inputmochebougez label{
+	color: #a79c99 !important;
+	font-family: 'Roboto';
+	letter-spacing: -0.5px;
+}
+.inputmochebougez input[type="checkbox"] {
+  appearance: none; 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 16px;
+  height: 16px;
+  box-shadow: 0px 0 8px 2px #0e0e0e;
+  border-radius: 4px;
+  background-color: #1c1c1c;
+  vertical-align: middle;
+  margin-right: 6px;
+  margin-top: -3px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.inputmochebougez input[type="checkbox"]:checked {
+  background-color: #C21108; 
+}
+
+.onmodifielemoche{
+letter-spacing: 0px;
+}
+.onmodifielemoche .h3{
+font-family: 'Cinzel';
+}
+
+.profilmoche dt label{
+font-family: 'Merriweather' !important;  color: #a79c99 !important; margin-top: 0px;
+}
+
+.profilmoche fieldset dd{
+  font-family: 'Merriweather' !important;  color: #a79c99 !important;
+}
+.profilmoche select{
+    font-family: 'Merriweather' !important;
+    color: #a79c99 !important;
+    margin-left: 5px;
+    margin-right: 10px;
+    background-color: #0c0c0c;
+	border-bottom:none;
+}
+
+.profilmoche input{
+font-family: 'Merriweather' !important;  color: #a79c99 !important;
+}
+
+.profilmoche span{
+font-family: 'Merriweather' !important;  color: #a79c99 !important;
+}
+.profilmoche .row3{
+  background: none !important;
+}
+
+.profilmoche #cp-main h1{
+font-family: 'Cinzel';background: rgba(12, 12, 12, 1) !important;color: #a79c99 !important;  padding: 15px 0px 10px 20px;    margin-left: -3px;
+}
+
+.profilmoche .panel{
+  background-image: url('https://i.imgur.com/YZewUW7.png');
+}
+
+.boutoneditpromoche input{
+background: rgba(19, 19, 19, 1);    box-shadow: none !important;    transition: 0.3s;  font-family: 'Roboto' !important;    text-transform: uppercase;    color: #a79c99 !important;
+}
+
+.boutoneditpromoche input:hover{
+color: #bf3131 !important;
+}
+
+.contener_login {
+  background-color: none !important; /* Exemple */
+  color: #fff;
+}
+
+.contener_login p{
+  font-family: 'Cinzel';
+  color: #a79c99 !important;
+}
+
+.contener_login .panel{
+  background: none !important;
+  box-shadow: none !important;
+    color: #a79c99 !important;
+    border-radius: 0px !important;
+    margin-bottom: 24px;
+    overflow: hidden;
+    position: relative;
+    padding: 0px;
+}
+
+.contener_login h1.page-title{
+font-family: 'Cinzel';
+}
+
+.contener_login label{
+  color: #a79c99 !important;
+    font-family: 'Cinzel';
+    width: 155px;
+}
+
+.contener_login .h3{
+    border-style: solid;
+    border-width: 0 0 1px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: 'Cinzel';
+    color: #a79c99 !important;
+    margin-bottom: 12px;
+    padding-bottom: 3px;
+}
+
+.contener_login input[type="text"], .inputbox{
+  color: #a79c99 !important;
+  background-color: #0c0c0c;
+    cursor: text;
+    font-size: 1.2rem;
+    padding: 10px 0 9px;
+}
+
+.contener_login dd a:link{
+  color: #a79c99 !important;
+font-family: 'Cinzel';
+}
+
+.contener_login input{
+    color: #a79c99 !important;
+    background: red;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    background: rgba(9, 9, 9, 0.6);
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    overflow: hidden;
+    padding: 9px 18px;
+    position: relative;
+    text-decoration: none;
+    vertical-align: middle;
+    width: auto !important;
+  transition: 0.3s;
+}
+
+.contener_login input:hover{
+color: #bf3131 !important;
+  box-shadow: none;
+}
+
+.contener_login a.button2{
+      background: rgba(9, 9, 9, 0.6);
+      box-shadow: none;
+    color: #a79c99 !important;
+  transition: 0.3s;
+}
+
+.contener_login a.button2:hover{
+  color: #bf3131 !important;
+}
+  
+.contener_login .social_btn{
+display: none;
+}
+
+.contener_login input[type="text"], .inputbox {
+    background-color: #0c0c0c;
+    cursor: text;
+    font-size: 1.2rem;
+    padding: 10px 0 9px;
+  border-bottom: none;
+}
+
+.contener_login  fieldset.fields1 dd{
+margin-left: 11em;
+}
+
+.contener_login  hr.dashed{
+display: none;
+}
+
+.contener_register p{
+  font-family: 'Cinzel';
+  color: #a79c99 !important;
+    margin-bottom: 20px;
+}
+
+.contener_register .panel{
+padding: 0px;
+background: none !important;
+box-shadow: none;
+  font-family: 'Merriweather';
+}
+
+.contener_register .panel p{
+  font-family: 'Merriweather';
+margin-bottom: 15px;
+}
+
+.contener_register .panel h2{
+font-family: 'Cinzel';
+    color: #a79c99 !important;
+}
+
+.contener_register span{
+      color: #a79c99 !important;
+}
+
+.contener_register .panel a{
+      color: #a79c99 !important;
+}
+
+.contener_register label{
+color: #bf3131 !important;
+}
+
+.contener_register .input[type="submit"], .button1{
+        background: rgba(9, 9, 9, 0.6);
+      box-shadow: none;
+    color: #a79c99 !important;
+  transition: 0.3s;
+}
+
+.contener_register .input[type="submit"], .button1:hover{
+  color: #bf3131 !important;
+}
+
+.mochetebeurk{
+display: none;
+}
+
+.trucdupanneaudadmin{
+      color: #716d6d !important;
+    font-family: 'Cinzel';
+}
+
+
+.trucdupanneaudadmin .copyright-body{
+  border: none;
+}
+
+.affreuxfooter a{
+    color: #373737 !important;
+    text-decoration: none !important;
+    font-family: 'Cinzel';
+}
+
+.footerbar-system li{
+float: none !important;
+  color: #101010;
+}
