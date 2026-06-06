@@ -1,0 +1,466 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+
+
+
+body{
+  color:#a79c99;
+  background: black;
+}
+.fichepresbim {
+
+}
+
+.hautfichepresen {
+  width: 700px;
+  height: 165px;
+  text-align: center;
+  font-family: 'Cinzel';
+}
+
+.nommembre {
+  font-size: 39px;
+  color: #a79c99;
+}
+
+.flexbloc1 {
+  width: 690px;
+  padding: 10px;
+  background-image: url(https://2img.net/i.imgur.com/YZewUW7.png);
+  box-shadow: 0 0 14px 4px rgba(0, 0, 0, 0.2);
+margin:auto;  
+}
+
+.contenerinfos {
+width: 700px;
+margin-top: 20px;
+display: flex;
+}
+
+.infomembres {
+    width: 400px;
+    padding-left: 20px;
+    height: 350px;
+    background: rgba(19, 19, 19, 0.6);
+    box-shadow: 0px 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 0% 20% 0% 0%;
+}
+
+.infomembreintern{
+background: rgba(19, 19, 19, 0.6);
+color: #a79c99 !important;
+height: 165px;
+    padding: 10px;
+    margin: 5px;
+	    box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.blocimageinfo{
+	width: 230px;
+    height: 350px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.contenercharac{
+width: 670px;
+    background: rgba(13, 13, 13, 0.7);
+    font-family: 'Merriweather';
+    font-size: 12px;
+    padding: 5px;
+    display: flex;
+    min-height: 505px;
+    margin-top: 20px;
+	box-shadow: 0px 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.contenerskill{
+	    width: 670px;
+    background: rgba(13, 13, 13, 0.7);
+    font-family: 'Merriweather';
+    font-size: 12px;
+    padding: 5px;
+    color: #a79c99;
+min-height: 210px;
+margin-top: 20px;
+box-shadow: 0px 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.titreskill {
+width: 670px;
+height: 85px;
+    font-size: 46px;
+    font-family: 'Cinzel';
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 7px;
+	margin-bottom: -10px;
+}
+
+.titreskill img{
+margin-right: 5px;
+}
+
+.soustitreskill{
+width: 605px;
+    font-family: 'Cinzel';
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 46px;
+    color: #a79c99;
+    text-align: left;
+    padding-right: 30px;
+    font-weight: 700;
+}
+
+.blocskill{
+width: 606px;
+    min-height: 50px;
+    padding: 5px 30px 15px 28px;
+    margin-left: 20px;
+    text-align: justify;
+    font-family: calibri;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.titrecharac {
+  width: 80px;
+  writing-mode: sideways-lr;
+  font-size: 46px;
+  font-family: 'Cinzel';
+    color: #a79c99;
+  text-align: left;  
+  padding-left: 10px;
+  padding-bottom: 7px;
+}
+
+.quotecharac{
+     font-family: 'Cinzel';
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    color: #a79c99;
+    text-align: center;
+    padding-right: 30px;
+    font-weight: 700;
+}
+
+.bloccharac{
+    width: 550px;
+	min-height: 400px; 
+    text-align: left;
+    margin-left: 10px;
+    text-align: justify;
+    font-family: calibri;
+    font-size: 14px;
+    color: #a79c99;
+    line-height: 19px;
+	padding: 10px 5px 10px 0px;
+}
+
+.contenerfacts{
+	    width: 670px;
+    background: rgba(13, 13, 13, 0.7);
+    font-family: 'Merriweather';
+    font-size: 12px;
+    padding: 5px;
+	display: flex;
+    color: #a79c99;
+	box-shadow: 0px 0 2px 4px rgba(0, 0, 0, 0.2);
+min-height: 210px;
+margin-top: 20px;
+}
+
+.titrefacts {
+    width: 70px;
+    min-height: 210px;
+    writing-mode: vertical-rl;
+    font-size: 46px;
+    font-family: 'Cinzel';
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.quotefacts{
+    font-family: 'Cinzel';
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 5px;
+    padding-left: 30px;
+    text-align: center;
+    padding-right: 30px;
+    font-weight: 700;
+}
+
+.blocfacts{
+    width: 570px;
+min-height: 210px; 
+    text-align: left;
+    margin-left: 20px;
+    text-align: justify;
+    font-family: calibri;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.contenerhistoire{
+    width: 670px;
+    background: rgba(13, 13, 13, 0.7);
+    font-family: 'Merriweather';
+    font-size: 12px;
+    padding: 5px 5px 20px 5px;
+    display: flex;
+	box-shadow: 0px 0 2px 4px rgba(0, 0, 0, 0.2);
+    min-height: 515px;
+    margin-top: 20px;
+    color: #a79c99;
+}
+
+.titrehistoire {
+  width: 80px;
+  writing-mode: sideways-lr;
+  font-size: 46px;
+  font-family: 'Cinzel';
+  text-align: left;  
+  padding-left: 10px;
+  padding-bottom: 7px;
+}
+
+.quotehistoire{
+    font-family: 'Cinzel';
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 5px;
+    padding-left: 30px;
+    text-align: center;
+    padding-right: 30px;
+    font-weight: 700;
+}
+
+.blochistoire{
+    width: 550px;
+	min-height: 400px; 
+    text-align: left;
+    margin-left: 10px;
+    text-align: justify;
+    font-family: calibri;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.imagebannprez{
+margin-top: 20px; 
+}
+
+.blocinfoirl{
+width: 700px;
+    height: 140px;
+    color: #a79c99;
+    margin-top: 15px;
+    margin-left: -10px;
+    display: flex;
+    background: rgba(13, 13, 13, 0.9);
+    background-image: url(https://i.imgur.com/8qN8Oqj.png);
+    background-repeat: no-repeat;
+	background-position: center;
+    padding: 10px;
+	margin-bottom: -10px;
+	position: relative;
+}
+
+.blocinfoirl img{
+	border: 5px outset #fff;
+    width: 70px;
+    height: 70px;
+    margin-top: -25px;
+    border-radius: 50px;
+	position: absolute; 
+	left: 315px;
+    top: 5px;
+}
+
+.infoirlfiche{
+text-align: center;
+margin-top: 50px;
+width: 700px;
+}
+
+
+.infospersofiche {
+      width: 405px;
+    padding-left: 20px;
+    height: 350px;
+    background: rgb(14 14 14);
+    box-shadow: 0px 0 6px 5px rgb(8 8 8 / 21%);
+    border-radius: 0% 20% 0% 0%;
+    color: #a79c99;
+}
+
+.diveinfosfiche {
+    width: 185px;
+    height: 60px;
+    font-family: "Cinzel", serif;
+    font-size: 23px;
+    color: #c2b4b1;
+    padding-top: 20px;
+    position: relative;
+    line-height: 22px;
+}
+
+.traitdeculficheperso{
+	width: 215px;
+    height: 1px;
+    background: linear-gradient(-90deg, #121212 10%, #ea731c 40%, #c21208 100%);
+    position: absolute;
+    left: 85px;
+    top: 50px;
+}
+
+.infopersofiche{
+    width: 405px;
+    height: 140px;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.champproffiche{
+	width: 118px;
+    min-height: 41px;
+    border-left: 1px #000 solid;
+    padding: 2px 0 0 5px;
+}
+
+.champproffiche4{
+	width: 152px;
+    min-height: 41px;
+    border-left: 1px #000 solid;
+    padding: 2px 0 0 5px;
+}
+
+.champproffiche2{
+	width: 270px;
+    height: 41px;
+    border-left: 1px #000 solid;
+    padding: 2px 0 0 5px;
+}
+
+.champproffiche3{
+	width: 375px;
+    min-height: 41px;
+    border-left: 1px #000 solid;
+    padding: 2px 0 0 5px;
+}
+
+.titreinfospersofiche{
+	font-family: "Cinzel", serif;
+	font-size: 16px;
+	height: 17px;
+	color: rgb(194, 17, 8);
+}
+
+.membreinfopersofiche2{
+	font-family: "Cinzel", serif;
+    font-size: 12px;
+    color: #c2b4b1;
+    letter-spacing: 2px;
+    padding-top: 3px;
+}
+
+.descrpouvoirfiche{
+width: 279px;
+    height: 115px;
+    margin-top: 25px;
+    margin-left: 7px;
+    text-align: justify;
+    overflow: auto;
+    color: #a79c99;
+    font-family: "Merriweather", serif;
+    font-size: 11px;
+    padding: 0px 10px 10px 0px;
+}
+
+.rangfiche{
+	width: 7px;
+    height: 350px;
+    background: linear-gradient(180deg, rgb(194, 17, 8), rgb(64, 5, 2));
+}
+
+
+--- POST OFFICIEL ---
+
+
+
+ .conteneurpostoffici{
+  }
+  
+  .conteneurpostoffi{
+    width: 700px;
+  height: 105px;
+  background: #0D0D0D;
+  display: flex;
+  }
+  
+  .titresujetpostoffi{
+      text-align: right;
+    font-family: "Cinzel", serif !important;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 25px;
+    padding-right: 35px;
+    height: 36px;
+    flex: 0 1 auto;
+    padding-left: 30px;
+    color: #a79c99;
+  }
+  .soustitrepostoffi{
+  font-family: "Cinzel", serif !important;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 35px;
+    padding-left: 30px;
+    height: 26px;
+    color: #a79c99;
+}
+  
+  .traitdroitepost{
+    flex: 8 1 auto;
+    height: 1px;
+    margin-top: 47px;
+    background: linear-gradient(90deg, #ea731c 10%, #c21208 50%, #0D0D0D 100%);
+  }
+  
+  .contenupostoffi{
+    width: 700px;
+      background-image: url(https://2img.net/i.imgur.com/OTqDOtl.png);
+  }
+  
+  .bloccontenuoffi{
+  width: 700px;
+  margin: auto; 
+    min-height: 225px;
+    margin: auto;
+    color: #a79c99;
+    font-size: 14px;
+    text-align: left;
+    font-family: "Roboto";
+  padding: 10px 20px 20px 20px;
+  }
+  
+  .blocinterieuroffi{
+  padding: 20px;
+  background: rgba(19, 19, 19, 0.8);
+  box-shadow: 0 0 16px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .blocdansoffi{
+  background: rgba(13, 13, 13, 0.5);
+  padding: 10px;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
