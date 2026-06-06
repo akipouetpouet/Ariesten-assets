@@ -1,0 +1,858 @@
+.maisenfaitctoi .panel{
+	background-color: #0a0a0a !important;
+	box-shadow: none !important;
+}
+
+.maisenfaitctoi p{
+    font-family: 'Cinzel';
+    color: #a79c99 !important;
+    margin-bottom: 20px;
+}
+
+.maisenfaitctoi h1{
+	font-family: 'Cinzel';
+    color: #a79c99 !important;
+}
+
+.maisenfaitctoi span{
+color: #a79c99 !important;
+}
+
+.maisenfaitctoi input{
+    background: rgba(19, 19, 19, 0.6);
+    box-shadow: none !important;
+    transition: 0.3s;
+    text-transform: uppercase;
+    color: #a79c99 !important;
+	width: 100px !important;
+	transition: 0.3s;
+}
+.trucdernierpost img{
+    position: absolute;
+    padding-left: 6px;
+    padding-top: 3px;
+}
+.maisenfaitctoi input:hover{
+  color: #bf3131 !important;    box-shadow: none !important;
+}
+
+.maisenfaitctoi label{
+	color: #bf3131 !important;
+}
+
+
+.toiteskiencore .panel{
+    background-color: #0a0a0a !important;
+    box-shadow: none !important;
+}
+
+.sceditor-container iframe, .sceditor-container textarea{
+font-size: 14px !important;
+}
+
+.toiteskiencore p{
+    font-family: 'Cinzel';
+    color: #a79c99 !important;
+    margin-bottom: 20px;
+}
+
+.toiteskiencore h1{
+	font-family: 'Cinzel';
+    color: #a79c99 !important;
+}
+
+.toiteskiencore span{
+color: #a79c99 !important;
+}
+
+.toiteskiencore input{
+    background: rgba(19, 19, 19, 0.6);
+    box-shadow: none !important;
+    transition: 0.3s;
+    text-transform: uppercase;
+    color: #a79c99 !important;
+	width: 100px !important;
+	transition: 0.3s;
+}
+
+.toiteskiencore input:hover{
+  color: #bf3131 !important;    box-shadow: none !important;
+}
+
+.toiteskiencore label{
+	color: #bf3131 !important;
+}
+
+.contener_register .input[type="reset"], .button2{
+	   background: rgba(9, 9, 9, 0.6);
+        box-shadow: none;
+        color: #a79c99 !important;
+        transition: 0.3s;
+		text-transform: uppercase;
+}
+
+.contener_register .input[type="reset"], .button2:hover{
+  color: #bf3131 !important;
+}
+
+.contener_register h1{
+	font-family: 'Cinzel';
+	color: #a79c99 !important;
+}
+
+.contener_register label {
+    color: #bf3131 !important;
+	text-transform: uppercase;
+}
+
+.contener_register fieldset dt{
+width: 17%;
+}
+
+.contener_register fieldset dd {
+    margin-left: 14%;
+    margin-bottom: 3px;
+}
+
+.contener_register .inputbox{
+border-bottom: none;
+}
+
+.contener_register .password-container{
+display: flex;
+}
+
+.contener_register .input[type="submit"], .button1{
+		text-transform: uppercase;
+}
+
+.contener_register #cp-main .panel{
+	padding: 0px 18px 18px 18px;
+}
+.contener_register .panel{
+	margin-bottom: 0px;
+}
+
+.contener_register .error{
+	background: rgb(191, 49, 49) !important;
+	margin-bottom: 18px;
+}
+
+.contener_register .error p{
+	color: white !important;
+	margin-bottom: 0px;
+}
+
+.panel fieldset{
+	margin-bottom: 0px;
+}
+
+.contener_register fieldset.submit-buttons{
+	margin-top: 0px;
+}
+
+.cheloupagination{
+margin-top: 15px;
+margin-bottom: -10px;
+}
+
+.cheloupagination img{
+	display: none !important;
+}
+
+.cheloupagination a{
+margin-right: 5px;
+}
+
+.cheloupagination strong{
+margin-right: 5px;
+}
+
+.cheloupagination .pagination{
+    width: 100%;
+    text-align: center;
+}
+
+.pagination span a:link, .pagination span a:visited, .pagination span a:active{
+background: #0f0f0f;
+color: #a79c99 !important;
+transition: 0.3s;
+margin: 0px;
+}
+
+.pagination span a:visited:hover{
+color: #bf3131 !important;
+}
+
+.pagination span strong{
+  color: #bf3131 !important;
+  background: #0a0a0a;
+  font-family: 'Cinzel';
+  margin: auto;
+}
+
+.pagination > a{
+display: none;
+}
+	
+.trucdupanneaudadmin .copyright a{
+	color: #716d6d !important;
+}
+
+.messagesmembrepro h1.page-title{
+font-family: 'Cinzel';
+color: #a79c99;
+}
+
+li.header dt, li.header dd{
+font-family: 'Cinzel';
+color: #a79c99;
+}
+
+.messagesmembrepro ul.topiclist{
+    background: #131313;
+	color: #a79c99 !important;
+	font-family: 'Cinzel';
+}
+
+.messagesmembrepro .row2{
+background: transparent;
+}
+
+.messagesmembrepro .row2{
+background: transparent;
+}
+
+.messagesmembre li.row{
+	border-color: rgb(55 55 55 / 50%);
+    border-style: solid;
+    border-width: 2px 0 0;
+}
+
+.messagesmembrepro .row1{
+background-color: rgba(13, 13, 13, 0.5) !important;
+}
+
+.messagesmembrepro li.row:hover{
+background: none;
+}
+
+
+.messagesmembrepro li.row{
+	border-color: rgb(55 55 55 / 50%) !important;
+    border-style: solid;
+border-width: 2px 0 0 !important;
+}
+
+.messagesmembrepro a.topictitle{
+font-family: 'Cinzel';
+font-style: italic;
+}
+
+.messagesmembrepro ul.topics .row dt, ul.topics .row dd.dterm {
+	line-height: 26px;
+}
+
+.messagesmembrepro .topic-title-container > img{
+display: none;
+}
+
+.messagesmembrepro .sub-header-info{
+	float: none;
+	margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.messagespaslesujetsoupsmembrepro h1.page-title{
+font-family: 'Cinzel';
+color: #a79c99;
+text-align: center;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.messagespaslesujetsoupsmembrepro .row1{
+background-color: rgba(13, 13, 13, 0.5) !important;
+}
+
+.messagespaslesujetsoupsmembrepro .postprofile{
+	color: #a79c99;
+    display: block;
+    float: right;
+    font-size: 1.3rem;
+    font-family: 'Cinzel';
+    padding: 18px;
+    position: relative;
+    width: 350px;
+    word-wrap: break-word;
+}
+
+.messagespaslesujetsoupsmembrepro .h3{
+	font-family: 'Cinzel';
+	font-style: italic;
+}
+
+.messagespaslesujetsoupsmembrepro .pagination span a.pag-img img{
+display: none;
+}
+
+.messagespaslesujetsoupsmembrepro .postbody{
+color: #a79c99 !important;
+font-size: 14px;
+}
+
+.messagespaslesujetsoupsmembrepro .pagination{
+width: 100%;
+text-align: center;
+}
+
+.ewmochewatch{
+	display: inline-block;
+	background: rgba(9, 9, 9, 0.6);
+    box-shadow: none;
+    color: #a79c99 !important;
+    transition: 0.3s;
+	font-family: 'Roboto' !important;
+	text-transform: uppercase;
+	padding: 9px 18px;
+}
+
+.ewmochewatch a{
+	transition: 0.3s;
+}
+
+.ewmochewatch a:hover{
+	color: #bf3131 !important;
+}
+
+.ewmochewatch a.ion-locked{
+background: #9f1b1b !important;
+}
+
+.ewmochewatch a.ion-locked:hover{
+color: #a79c99 !important;
+}
+
+.modifboutonforum a{
+background: rgba(9, 9, 9, 0.6);
+    box-shadow: none;
+    color: #a79c99 !important;
+    transition: 0.3s;
+	border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    overflow: hidden;
+    padding: 9px 18px;
+    position: relative;
+    width: auto !important;
+	text-transform: uppercase;
+}
+
+.modifboutonforum a:hover{
+	color: #bf3131 !important;
+}
+
+.zoulesmoches .topic-actions-buttons{
+margin-top: 5px !important;
+margin-right: 25px !important;
+}
+
+.filtres{
+margin: 15px 15px 15px 15px;
+position: sticky; 
+top: 75px;
+}
+
+.filtres button{
+    color: #a79c99 !important;
+	transition: 0.3s;
+	width: 120px !important;
+	margin-left: 10px; 
+}
+
+.ui-group h3{
+	color: #a79c99 !important;
+	font-family: 'Cinzel';
+	border: none;
+	margin-bottom: 3px;
+}
+
+.sorts h3{
+	color: #a79c99 !important;
+	font-family: 'Cinzel';
+	border: none;
+		margin-bottom: 3px;
+}
+
+.croiss h3{
+	color: #a79c99 !important;
+	font-family: 'Cinzel';
+	border: none;
+		margin-bottom: 3px;
+}
+
+.button-group{
+gap: 50px;
+font-family: 'Cinzel' !important; 
+}
+
+.filters button{
+border: 1px solid transparent;
+margin-top: 10px; 
+margin-bottom: 10px;
+text-transform: uppercase;
+background: rgba(13, 13, 13, 0.8);
+}
+
+button[data-filter=".groupeariestiens"]{
+  transition: 0.3s;
+  color: #6AC889 !important;
+}
+button[data-filter=".groupeariestiens"]:hover{
+  border-color: #6AC889;
+}
+
+button[data-filter=".groupeaterriens"]{
+  transition: 0.3s;
+  color: #C21108 !important;
+}
+
+button[data-filter=".groupegardiens"]{
+  transition: 0.3s;
+  color: #F08C00 !important;
+}
+button[data-filter=".groupegardiens"]:hover{
+  border-color: #F08C00;
+}
+
+button[data-filter=".groupelus"]{
+  transition: 0.3s;
+  color: #289DDC !important;
+}
+
+button[data-filter=".groupelus"]:hover{
+  border-color: #289DDC;
+}
+
+button[data-filter=".groupedamnes"]{
+  transition: 0.3s;
+  color: #8956E8 !important;
+}
+
+button[data-filter=".groupedamnes"]:hover{
+  border-color: #8956E8;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #a79c99;
+  border: 1px solid #bf3131;
+}
+
+.sorts button{
+border: 1px solid transparent;
+margin-top: 10px; 
+margin-bottom: 10px;
+text-transform: uppercase;
+background: rgba(13, 13, 13, 0.8);
+transition: 0.3s;
+}
+
+.sorts button:hover{
+border: 1px solid #bf3131;
+}
+
+.croiss button{
+border: 1px solid transparent;
+margin-top: 10px; 
+margin-bottom: 10px;
+text-transform: uppercase;
+background: rgba(13, 13, 13, 0.8);
+transition: 0.3s;
+}
+
+.croiss button:hover{
+border: 1px solid #bf3131;
+}
+
+.filtres .quicksearch{
+background: rgba(13, 13, 13, 0.8);
+width: 270px;
+font-size: 16px;
+border-bottom: none;
+padding: 17px;
+box-shadow: 0 0 4px 0px #0d0d0d;
+font-family: 'Cinzel';
+color: #a79c99;
+}
+
+.filtres .quicksearch p{
+	outline: none;
+}
+
+.filtres .quicksearch:focus{
+color: #a79c99;
+outline: none;
+}
+
+.inputbox:focus{
+	outline: none;
+}
+
+.filtremembres{
+}
+
+.filtredumembre{
+}
+
+.refavafiltre{
+}
+
+.lienfiltremembre{
+	
+}
+
+/*Fait disparaître la colonne des widgets*/
+#left {
+  display: none;
+}
+/*Personnaliser le contenu des derniers sujets*/
+#derniers_sujets {
+width: ;
+}
+
+.codebox {
+    position: relative;
+}
+
+dl.codebox code{
+color:  #a79c99 !important;
+}
+
+dl.codebox dt{
+	border-bottom: 1px solid #bf3131;
+    padding-bottom: 5px;
+	color: #bf3131;
+	font-family: 'Cinzel';
+}
+
+dl.codebox{
+color: #878787 !important;
+letter-spacing: 0px;
+border-color: #bf3131;
+border-width: 0 0 0 3px;
+padding: 15px 15px 30px 15px;
+}
+
+span.selectCode{
+float: right;
+}
+
+dl.codebox code .hljs-comment,.hljs-meta {
+    color:  #a79c99 !important;
+}
+
+dl.codebox code .hljs-string,.hljs-variable,.hljs-template-variable,.hljs-strong,.hljs-emphasis,.hljs-quote {
+    color:  #a79c99 !important;
+}
+
+dl.codebox code .hljs-keyword,.hljs-selector-tag,.hljs-type {
+    color:  #a79c99 !important;
+}
+
+dl.codebox code .hljs-literal,.hljs-symbol,.hljs-bullet,.hljs-attribute {
+    color:  #a79c99 !important;
+}
+
+dl.codebox code .hljs-section,.hljs-name {
+    color:  #a79c99 !important;
+}
+
+dl.codebox code .hljs-tag {
+    color:  #a79c99 !important;
+}
+
+dl.codebox code .hljs-title,.hljs-attr,.hljs-selector-id,.hljs-selector-class,.hljs-selector-attr,.hljs-selector-pseudo {
+    color:  #a79c99 !important;
+}
+
+dl.codebox code .hljs-addition {
+    color:  #a79c99 !important;
+    background-color: none;
+}
+
+dl.codebox code .hljs-deletion {
+    color:  #a79c99 !important;
+    background-color: none;
+}
+
+dl.codebox code .hljs-link {
+    text-decoration: none;
+}
+
+dl.codebox:before {
+	display: none;
+	content: "";
+}
+
+
+  dl.codebox code::-webkit-scrollbar{
+  width: 4px;
+  margin-right: 5px;
+  }
+  dl.codebox code::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(to bottom, rgb(70, 6, 6) 0%, rgb(198, 3, 3) 100%);
+  }
+  
+code.hljs::-webkit-scrollbar{
+  width: 4px;
+  margin-right: 5px;
+  }
+
+code.hljs::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(to bottom, rgb(70, 6, 6) 0%, rgb(198, 3, 3) 100%);
+  }
+
+------ SUITE EDITION PROFIL ------
+
+.losprofilos dt{
+	    font-size: 1.4rem;
+}
+
+.losprofilos fieldset dt{
+width: 22%;
+background:rgba(9, 9, 9, 0.6);
+}
+
+.losprofilos input[type="text"], .inputbox{
+	    padding: 16px 0px 16px 16px !important;
+}
+
+.losprofilos fieldset dd{
+margin-left: 23%;
+}
+
+.losprofilos fieldset dt{
+padding: 13px;
+}
+
+.losprofilos .bougeptnjevaiscrier{
+margin-top: 14px !important;
+margin-left: 17px;
+}
+
+.toiaussibougeptn{
+margin-top: 14px !important;
+margin-left: 8px;
+}
+
+.editionprofilbloc{
+background: rgba(19, 19, 19, 0.8);
+}
+
+
+.cheminsujets{
+      position: absolute;
+    top: -30px;
+  left: -10px;
+    font-family: 'Merriweather';
+    text-transform: lowercase;
+  color: transparent;
+}
+
+.cheminsujets a{
+      color: #a79c99 !important;
+}
+
+.cheminsujets a::before{
+  color: #a79c99 !important;
+  content: "❖";
+  margin-right: 14px;
+}
+
+.cheminsujets a:first-of-type::before {
+    display: none
+}
+
+.cheminsujets a:first-of-type{
+    pointer-events: none !important;
+}
+
+
+--- MEMBERLIST ---- 
+
+.contenairfondmembre .blocpaginationmemberlist{
+float: right;
+    margin-top: 50px;
+}
+
+.blocpaginationmemberlist .button{
+background: rgba(13, 13, 13, 0.8);
+    margin-right: 10px;
+	font-family: 'Cinzel' !important;
+	color: white;
+	transition: 0.3s;
+	border: 1px solid transparent;
+	width: auto !important;
+	
+}
+
+.blocpaginationmemberlist .button:hover{
+color: #C21108 !important;
+border: 1px solid #C21108;
+}
+
+.contenerchiantfiltremembres{
+	    display: flex;
+    width: 1265px;
+    position: relative;
+}
+.blocfiltregauche{
+    width: 300px;
+    background: rgba(19, 19, 19, 0.6);
+    margin-left: 20px;
+	margin-top: 25px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+	box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5);
+}
+
+   #message-box textarea::-webkit-scrollbar{
+  width: 4px;
+  margin-right: 5px;
+  }
+  #message-box textarea::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(to bottom, rgb(70, 6, 6) 0%, rgb(198, 3, 3) 100%);
+  }
+  
+  #message-box textarea{
+  padding-right: 10px;
+  }
+  
+  #message-box .sceditor-container{
+  padding-right: 5px;
+  }
+ 
+ 
+ 
+ 
+ 
+ ---- PROFIL ----
+ 
+ /* Onglet Amis/Ennemis */
+a[href*="friendsfoes"] {
+    display: none !important;
+}
+
+/* Onglet Abonnés / Followers */
+a[href="/profile?mode=editprofile&page_profil=followers"] {
+    display: none !important;
+}
+
+/* Onglet Recherches favorites */
+a[href="/search?search_id=favouritesearch"] {
+    display: none !important;
+}
+
+/* Onglet Feuille de personnage */
+a[href^="/rpg_sheet_edit?u="] {
+    display: none !important;
+}
+
+.menumochezoubi #tabs li:nth-child(5) { 
+display: none !important; 
+}
+
+a[href="/profile?mode=editprofile&page_profil=followers"] {
+    display: none !important;
+}
+
+a[href="/profile?mode=editprofile&page_profil=notifications"] {
+    display: none !important;
+}
+
+
+--- SIGNATURE ---
+
+.signaturemoche{
+	background: #131313;
+}
+
+.signaturemoche #message-box textarea{
+background: #181818 !important;
+}
+
+.signaturemoche #smiley-box{
+display: none;
+}
+
+.signaturemoche #textarea_content{
+width: 117% !important;
+}
+.signaturemoche #cp-main .panel.sig{
+	background: none !important;
+}
+
+.signaturemoche .row2{
+background: none !important;
+}
+
+.signaturemoche #cp-main h1{
+font-family: 'Cinzel';
+color: #a79c99 !important;
+    background: #0D0D0D;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.signaturemoche div.sceditor-toolbar{
+	display: flex;
+    margin: auto;
+    width: 100%;
+    padding: 10px !important;
+    justify-content: space-evenly;
+    background-image: url(https://i.imgur.com/zuu2HT9.png);
+}
+
+.signaturemoche .sceditor-container textarea{
+padding: 20px !important;
+}
+.signaturemoche .panel{
+background: none !important;
+padding: 0px !important;
+box-shadow: none !important;
+}
+
+
+---- PROFIL ----
+
+.contenair_field_id2 a {
+    display: inline-block;
+}
+
+.contenair_field_id2 a::after {
+    content: "Présentation";
+}
+
+.contenair_field_id2 a[href] {
+    color: inherit;
+    text-decoration: none;
+}
+
+.contenair_field_id2 a span,
+.contenair_field_id2 a::before {
+    display: none !important; /* masque le texte auto-généré du lien */
+}
+
+
+
+blockquote{
+background-color: #090909;
+}
+
+blockquote:before{
+	color: rgb(203 64 15) !important;
+}
